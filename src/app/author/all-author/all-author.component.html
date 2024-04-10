@@ -1,0 +1,22 @@
+<div class="container">
+    <section class="section">
+        <h2 class="title">Author list</h2>
+    </section>
+    <div class="card-list">
+        <a routerLink="/author-detail/{{item.id}}" class="card-item" *ngFor="let item of allAuthor; let last = last">
+            <img class="user" src="{{item.download_url}}" alt="Card Image">
+            <span class="developer">{{item.author}}</span>
+            <div *ngIf="last" (appIntersectionListener)="getAPI()">
+            </div>
+        </a>
+    </div>
+    <div class="loading" *ngIf="isLoading">
+        <section class="dots-container">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </section>
+    </div>
+</div>

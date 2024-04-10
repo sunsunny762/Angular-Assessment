@@ -30,11 +30,11 @@ npm install -g @angular/cli
 To clone the repo to your local machine (or AVD), run the below command
 
 ```bash
-$ git clone http://gitlab.flydocs.com/Administrator/feedprocessing.git
+$ git clone https://github.com/sunsunny762/Angular-Assessment.git
 ```
 
 If you are using SSH, use the below command
 
 ```bash
-$ git clone git@gitlab.flydocs.com:Administrator/feedprocessing.git
+$ git clone git@github.com:sunsunny762/Angular-Assessment.git
 ```

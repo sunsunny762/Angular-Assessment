@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.detail {
+    width: 800px;
+    margin: 0 auto;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .info {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .section {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .title {
+    padding: 1rem 1rem;
+    background-color: #4B7CB6;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
