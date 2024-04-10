@@ -1,8 +1,8 @@
-## Angular Assessment
+# Angular Assessment
 
-#	Implement infinite Continuous scroll author list view
-#	Click on any author then to open another screen of author detail page.
-#	Click back to Go back on Author List view screen
+-	Implement infinite Continuous scroll author list view
+-	Click on any author then to open another screen of author detail page.
+-	Click back to Go back on Author List view screen
 
 ## `I have Implement infinite scroll of author list Using Intersection Observer API:-`
 
