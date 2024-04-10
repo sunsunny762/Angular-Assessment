@@ -1,27 +1,40 @@
-# AngularAssessment
+# Angular Assessment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+•	Implement infinite Continuous scroll author list view
+•	Click on any author then to open another screen of author detail page.
+•	Click back to Go back on Author List view screen
 
-## Development server
+## `I have Implement infinite scroll of author list Using Intersection Observer API:-`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+For this method I have create directive
 
-## Code scaffolding
+This is a custom method that sets up the IntersectionObserver. It creates an observer with specified options, including the root element, root margin, and threshold. The observer listens for changes in intersection and triggers a callback function when an intersection occurs. If the observed element is intersecting with its parent container, it logs a message to the console and emits true through the appIntersectionListener event emitter.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Development Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- Install [Node.js] which includes [Node Package Manager][npm]
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Setting Up a Project
 
-## Running end-to-end tests
+Install the Angular CLI globally:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+npm install -g @angular/cli
+```
 
-## Further help
+## Getting Started
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To clone the repo to your local machine (or AVD), run the below command
+
+```bash
+$ git clone http://gitlab.flydocs.com/Administrator/feedprocessing.git
+```
+
+If you are using SSH, use the below command
+
+```bash
+$ git clone git@gitlab.flydocs.com:Administrator/feedprocessing.git
+```
