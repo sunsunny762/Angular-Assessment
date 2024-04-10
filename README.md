@@ -4,7 +4,7 @@
 -	Click on any author then to open another screen of author detail page.
 -	Click back to Go back on Author List view screen
 
-## `I have Implement infinite scroll of author list Using Intersection Observer API:-`
+## `I have Implement infinite scroll of author list Using Intersection Observer`
 
 For this method I have create directive
 
